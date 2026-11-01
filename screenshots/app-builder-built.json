@@ -1,0 +1,41 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Harmonic Reality Warp",
+      "hasCanvas": true,
+      "bodyTextLen": 686,
+      "bodyTextHash": "934df438a1329f80257c46be9abe81ee22b62b53d64017a8b3e63d790bbc2448",
+      "bodyTextPrefix": "NODAW LABS Harmonic RealityWarp Init Air Lift De-Box Phone Hook ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Harmonic Reality Warp",
+      "hasCanvas": true,
+      "bodyTextLen": 647,
+      "bodyTextHash": "efd61109bf3df0341ff618d93a00ed76d83c693690489e65ad0e848d92c572c4",
+      "bodyTextPrefix": "NODAW LABS Harmonic RealityWarp Init Air Lift De-Box Phone Hook ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [
+    "BRAND WARNING: this looks like a game/canvas app but src/lib/og/site.json is missing \"type\": \"x:game\". X uses og:type=x:game to present the unfurl as a game card — set it in /workspace/src/lib/og/site.json per /workspace/.grok/skills/og/SKILL.md. Do not invent x:type or overload twitter:card as the game signal.",
+    "BRAND WARNING: this looks like a game/canvas app but /workspace/public/x-banner.jpg is missing. Games need a 50:11 X feed card (1200×264 JPEG) at public/x-banner.jpg — open /workspace/.grok/skills/og/SKILL.md and finish the brand-asset pass."
+  ],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}
